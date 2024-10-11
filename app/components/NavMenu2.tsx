@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 function AuthButton() {
+  // useless comment
   const { data: session } = useSession();
 
   if (session) {
